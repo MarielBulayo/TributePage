@@ -1,0 +1,77 @@
+<!--
+Build a Tribute Page
+Objective: Build a website similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx (Links to an external site.).
+
+Fulfill the below user stories (Links to an external site.) and get all of the tests to pass. Give it your own personal style.
+
+You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Happy coding!
+
+User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
+
+User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+
+User Story #3: I should see a div element with a corresponding id="img-div".
+
+User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
+
+User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
+
+User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+
+User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
+
+User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+
+User Story #9: The img element should be centered within its parent element.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Portfolio</title>
+</head>
+<body id="main">
+  <h1 id="title">Hedy Lammar</h1>
+  <p class="pw">The Incredible Mind Behind Secure WiFi, GPS and Bluetooth</p>
+  <div>
+  <figure id="img-div">
+    <img
+      id="image"
+      src="hedylammar.jpg"
+      alt="Heddy Lammar"
+    />
+    <figcaption id="img-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+  <section id="tribute-info">
+    <h3 id="headline"> Something About Her</h3>
+      <p class="p1">The striking movie star may be most well-known for her roles in the 1940s Oscar-nominated films ‘Algiers’ and ‘Sampson and Delilah.’ But it is her technical mind that is her greatest legacy, according to a new documentary on her life called ‘Bombshell: The Hedy Lamarr Story.’ The film chronicles the patent that LaMarr filed for frequency-hopping technology in 1941 that became a precursor to the secure wi-fi, GPS and Bluetooth now used by billions of people around the world.
+
+LaMarr’s life story is indeed remarkable. Born in Austria to Jewish parents, she married her first husband in 1934 at age 19. Unhappily married to an affluent, domineering munitions manufacturer, LaMarr fled their home by bicycle in the middle of the night.
+
+She emigrated to the U.S. in the lead up to World War II and caught the eye of MGM studio head Louis B. Mayer on the ship from London to New York. LaMarr spoke little English but talked her way into a lucrative contract to act in Hollywood films. The Viennese beauty soon settled into life in Beverly Hills and socialized with luminaries including John F. Kennedy and Howard Hughes, who provided her with equipment to run experiments in her trailer during her downtime from acting. It was in this scientific environment that LaMarr found her true calling.</p>
+
+    <blockquote
+      cite="https://www.google.com/amp/s/wwww.forbes.com/sites/shivaunefield/2018/02/28/hedy-lamarr-the-incredible-mind-behind-secure-wi-fi-gps-bluetooth-/amp/"
+    >
+      <p>
+        "She was so ahead of her time with being a feminist. she has never been called that, but, she certainly was."
+      </p>
+      <cite>-- Loder, 'Bombshell'</cite>
+    </blockquote>
+    <h3 class="zelink">
+      Read more about Hedy Lammar>>>>
+      <a
+        id="tribute-link"
+        href="https://www.forbes.com/sites/shivaunefield/2018/02/28/hedy-lamarr-the-incredible-mind-behind-secure-wi-fi-gps-bluetooth/?sh=43b27df041b7"
+        target="_blank"
+        >Click Here</a
+      >.
+    </h3>
+  </section>
+</body>
+</html>
+
